@@ -9,7 +9,7 @@ def perform_operation(num1, num2, operation):
         case 'divide':
             if num2 == 0:
                 result = 'Error: Division by zero'
-            else:
+            elif num2 != 0:
                 result = num1 / num2
         case _:
             result = 'Error: Invalid operation'
