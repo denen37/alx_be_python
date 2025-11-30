@@ -1,4 +1,4 @@
-class Book():
+class Book:
     def __init__(self, title, author):
         self.title = title
         self.author = author
@@ -16,7 +16,7 @@ class Book():
     def __str__(self):
         return f"{self.title} by {self.author}"
 
-class Library():
+class Library:
     _books: list[Book] = []
 
     def add_book(self, book):
